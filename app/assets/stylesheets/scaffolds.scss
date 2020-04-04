@@ -8,26 +8,34 @@ body, p, ol, ul, td {
   font-size: 13px;
   line-height: 18px; }
 
+h1{
+  margin-bottom: 22px;
+  text-align: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: white;	}
+
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: 11px; }
 
 a {
+  text-align: center;
   color: #000; }
 
-a:visited {
-  color: #666; }
 
 a:hover {
   color: #fff;
   background-color: #000; }
 
 th {
+  padding-left: 14px;
   padding-bottom: 5px; }
 
 td {
-  padding: 0 5px 7px; }
+  padding: 0 5px 8px 14px; }
 
 div.field,
 div.actions {
