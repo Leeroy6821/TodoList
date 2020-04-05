@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ /* Font-awesome */
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
  $white_opaque: rgba(250, 250, 250, .3);
  $dark: #1F7972;
@@ -97,6 +101,7 @@ body {
 
 #todo_items_wrapper {
 	.row {
+    margin: 0;
 		width: 100%;
 		border-top: 1px solid rgba(250,250,250, .3);
 		border-bottom: 1px solid rgba(250,250,250, .3);
