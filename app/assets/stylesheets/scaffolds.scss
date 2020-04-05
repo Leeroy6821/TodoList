@@ -3,17 +3,16 @@ body {
   color: #333;
   margin: 33px; }
 
-body, p, ol, ul, td {
+body, h1, p, ol, ul, td{
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; }
 
-
 h1{
+  font-size: 1.5rem;
   margin-bottom: 22px;
   text-align: center;
 	font-weight: 700;
-	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: white;	}
 
@@ -40,6 +39,9 @@ td {
   text-align: center;
   padding: 0 5px 8px 14px; }
 
+.titleFont{
+  color: #1F7972;
+}
 div.field,
 div.actions {
   margin-bottom: 10px; }
