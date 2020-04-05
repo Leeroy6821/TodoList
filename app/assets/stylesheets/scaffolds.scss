@@ -8,7 +8,19 @@ body, h1, p, ol, ul, td{
   font-size: 13px;
   line-height: 18px; }
 
-h1{
+  // ICONS
+.fa-github {
+  margin-bottom: 10px;
+  margin-left: 43%;
+  font-size: 32px;
+  color: black; }
+
+.fa-gitlab {
+  margin-left: 6px;
+  font-size: 32px;
+  color: black; }
+
+h1 {
   font-size: 1.5rem;
   margin-bottom: 22px;
   text-align: center;
@@ -24,7 +36,6 @@ pre {
 a {
   text-align: center;
   color: #000; }
-
 
 a:hover {
   color: #fff;
