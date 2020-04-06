@@ -7,13 +7,6 @@
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-
-<div class="input-group mb-4 mr-sm-2">
-  <div class="input-group-prepend">
-    <div class="input-group-text"><%= icon('fas', 'at') %></div>
-  </div>
-</div>
-
   <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
