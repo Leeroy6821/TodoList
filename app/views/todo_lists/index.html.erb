@@ -1,13 +1,13 @@
 <div>
+  <% if user_signed_in? %>
+  <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'btn btn-dark btn-sm ml-md-4' %>
+  <% else %>
+  <%= link_to 'Log in', new_user_session_path, class: 'btn btn-dark btn-sm ml-md-4' %>
+  <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-dark btn-sm ml-md-2' %>
+  <% end %>
+
   <a href="https://github.com/Leeroy6821/TodoList" class="fab fa-github"></a>
   <a href="https://gitlab.com/Leeroy6821/todo", class="fab fa-gitlab"></a>
-
-<% if user_signed_in? %>
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'btn btn-dark btn-sm ml-md-4' %>
-<% else %>
-<%= link_to 'Log in', new_user_session_path, class: 'btn btn-dark btn-sm ml-md-4' %>
-<%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-dark btn-sm ml-md-2' %>
-<% end %>
 </div>
 
 <p id="notice"><%= notice %></p>
