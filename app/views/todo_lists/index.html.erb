@@ -30,3 +30,10 @@
 
 <br>
 <%= link_to 'New Todo List', new_todo_list_path, class: 'btn btn-outline-info btn-lg btn-block btn-sm' %>
+
+<% if user_signed_in? %>
+      <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'btn btn-outline-dark btn-sm ml-md-4' %>
+    <% else %>
+      <%= link_to 'Log in', new_user_session_path, class: 'btn btn-outline-dark btn-sm ml-md-4' %>
+      <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-outline-dark btn-sm ml-md-2' %>
+    <% end %>

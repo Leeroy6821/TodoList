@@ -18,6 +18,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap',  '~>4.3.1'
 # Font-awesome 5
 gem 'font-awesome-sass', '~> 5.6.1'
+# Devise
+gem 'devise', '~> 4.6', '>= 4.6.2'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
