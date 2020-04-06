@@ -10,12 +10,14 @@ body, h1, p, ol, ul, td{
 
   // ICONS
 .fa-github {
-  // margin-bottom: 10px;
-  margin-left: 43%;
+  margin-top: 14px;
+  margin-left: 14px;
+  margin-bottom: 10px;
   font-size: 32px;
   color: black; }
 
 .fa-gitlab {
+  margin-right: 69%;
   margin-left: 6px;
   font-size: 32px;
   color: black; }
@@ -58,6 +60,7 @@ div.actions {
   margin-bottom: 10px; }
 
 #notice {
+  margin-top: 12px;
   color: green; }
 
 .field_with_errors {
