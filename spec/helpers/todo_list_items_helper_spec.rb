@@ -10,5 +10,5 @@ require 'rails_helper'
 #     end
 #   end
 # end
-RSpec.describe TodoListItemsHelper, type: :helper do
+RSpec.describe TodoItemsHelper, type: :helper do
 end

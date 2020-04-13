@@ -1,2 +1,0 @@
-class TodoListItemsController < ApplicationController
-end

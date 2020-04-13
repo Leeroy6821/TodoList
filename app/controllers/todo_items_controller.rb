@@ -31,7 +31,7 @@ class TodoItemsController < ApplicationController
   def set_todo_item
     @todo_item = @todo_list.todo_items.find(params[:id])
   end
-  
+
   def todo_item_params
    params[:todo_item].permit(:content)
   end

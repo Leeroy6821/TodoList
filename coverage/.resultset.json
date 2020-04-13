@@ -681,12 +681,6 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/app/helpers/todo_list_items_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/home/alexandr/Desktop/Projects/todo/app/helpers/todo_lists_helper.rb": {
         "lines": [
           1,
@@ -750,8 +744,6 @@
           null,
           1,
           null,
-          null,
-          null,
           1,
           1,
           null,
@@ -768,6 +760,13 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           null,
@@ -880,6 +879,6 @@
         ]
       }
     },
-    "timestamp": 1586611848
+    "timestamp": 1586793083
   }
 }
