@@ -1,17 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="row justify-content-md-center">
+  <div class="col-md-12">
+    <p id="notice"><%= notice %></p>
 
-<h2 class="todo_list_title"><%= @todo_list.title %></h2>
-<p class="todo_list_sub_title"><%= @todo_list.description %></p>
+    <h2 class="mb-4"><%= @todo_list.title %></h2>
+    <p class="todo_list_sub_title"><%= @todo_list.description %></p>
 
-<div id="todo_items_wrapper">
- <%= render @todo_list.todo_items %>
- <div id="form">
-  <%= render "todo_items/form", class: 'btn btn-sm btn-outline-dark' %>
- </div>
-</div>
+    <div id="todo_items_wrapper">
+     <%= render @todo_list.todo_items %>
+     <div id="form">
+      <%= render "todo_items/form", class: 'btn btn-lg btn-outline-secondary' %>
+     </div>
+    </div>
 
-<div class="links">
-<%= link_to 'Edit', edit_todo_list_path(@todo_list), class: 'btn btn-sm btn-outline-dark' %>
-<%= link_to 'Delete', todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-sm btn-outline-dark' %>
-<%= link_to 'Back', todo_lists_path, class: 'btn btn-sm btn-outline-dark' %>
+    <div class="links">
+    <%= link_to 'Edit', edit_todo_list_path(@todo_list), class: 'btn btn-lg btn-outline-secondary' %>
+    <%= link_to 'Delete', todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-lg btn-outline-secondary' %>
+    <%= link_to 'Back', todo_lists_path, class: 'btn btn-lg btn-outline-secondary' %>
+    </div>
+  </div>
 </div>

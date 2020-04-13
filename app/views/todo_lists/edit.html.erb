@@ -1,10 +1,6 @@
-<h1>Editing Todo List</h1>
+<h2 class="mb-4">Editing Todo List</h2>
 
-<div class="forms">
 <%= render 'form', todo_list: @todo_list %>
-</div>
 
-<div class="links">
-<%= link_to 'Show', @todo_list, class: 'btn btn-sm btn-outline-dark' %>
-<%= link_to 'Back', todo_lists_path, class: 'btn btn-sm btn-outline-dark' %>
-</div>
+<%= link_to icon('fas', 'arrow-left', 'Back'), todo_lists_path, class: 'btn btn-outline-secondary btn-lg' %>
+<%= link_to icon('fas', 'eye', 'Show'), @todo_list, class: 'btn btn-outline-secondary btn-lg' %>
