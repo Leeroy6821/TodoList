@@ -7,6 +7,10 @@ RSpec.describe TodoItemsController, type: :controller do
       expect redirect_to @todo_list
     end
 
+    it 'should flash succes' do
+      expect flash[:success] = ('Todo item completed')
+    end
+
   describe 'create'
     it 'create' do
       expect redirect_to @todo_list
