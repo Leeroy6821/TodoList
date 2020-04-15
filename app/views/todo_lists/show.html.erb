@@ -1,21 +1,24 @@
-<div class="row justify-content-md-center">
-  <div class="col-md-12">
-    <p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %></p>
 
-    <h2 class="mb-4"><%= @todo_list.title %></h2>
-    <p class="todo_list_sub_title"><%= @todo_list.description %></p>
+<h2 class="mb-4"><%= @todo_list.title %></h2>
+<p class="lead"><%= @todo_list.description %></p>
 
-    <div id="todo_items_wrapper">
-     <%= render @todo_list.todo_items %>
-     <div id="form">
-      <%= render "todo_items/form", class: 'btn btn-lg btn-outline-secondary' %>
-     </div>
-    </div>
+<div id="todo_items_wrapper">
 
-    <div class="links">
-    <%= link_to 'Edit', edit_todo_list_path(@todo_list), class: 'btn btn-lg btn-outline-secondary' %>
-    <%= link_to 'Delete', todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-lg btn-outline-secondary' %>
-    <%= link_to 'Back', todo_lists_path, class: 'btn btn-lg btn-outline-secondary' %>
-    </div>
-  </div>
+<ul class="list-group list-group-flush my-5">
+  <%= render @todo_list.todo_items %>
+</ul>
+
+ <hr>
+
+ <h3 class="mb-4">Create new item</h3>
+ <div id="form">
+  <%= render "todo_items/form" %>
+ </div>
+</div>
+
+<div class="mt-5">
+  <%= link_to icon('fas', 'arrow-left', 'Back'), todo_lists_path, class: 'btn btn-outline-secondary' %>
+  <%= link_to icon('fas', 'edit', 'Edit'), edit_todo_list_path(@todo_list), class: 'btn btn-outline-secondary' %>
+  <%= link_to icon('fas', 'trash', 'Delete'), todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-outline-secondary' %>
 </div>
