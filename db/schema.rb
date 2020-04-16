@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_09_184126) do
+ActiveRecord::Schema.define(version: 2020_04_15_194857) do
 
   create_table "lists", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2020_04_09_184126) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.datetime "completed_at"
+    t.integer "position"
     t.index ["todo_list_id"], name: "index_todo_items_on_todo_list_id"
   end
 

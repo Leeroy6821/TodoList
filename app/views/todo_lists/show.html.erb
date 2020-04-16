@@ -18,7 +18,7 @@
 </div>
 
 <div class="mt-5">
-  <%= link_to icon('fas', 'arrow-left', 'Back'), todo_lists_path, class: 'btn btn-outline-secondary' %>
-  <%= link_to icon('fas', 'edit', 'Edit'), edit_todo_list_path(@todo_list), class: 'btn btn-outline-secondary' %>
-  <%= link_to icon('fas', 'trash', 'Delete'), todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-outline-secondary' %>
+  <%= link_to icon('fas', 'arrow-left', 'Back'), todo_lists_path, class: 'btn btn-outline-secondary btn-lg' %>
+  <%= link_to icon('fas', 'edit', 'Edit'), edit_todo_list_path(@todo_list), class: 'btn btn-outline-secondary  btn-lg' %>
+  <%= link_to icon('fas', 'trash', 'Delete'), todo_list_path(@todo_list), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-outline-secondary  btn-lg' %>
 </div>
