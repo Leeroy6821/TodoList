@@ -18,16 +18,27 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap',  '~>4.3.1'
 # Font-awesome 5
 gem 'font-awesome-sass', '~> 5.6.1'
-# Devise
+# Devise authorization
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'devise-bootstrap-views', '~> 1.0'
+# sorting
 gem 'acts_as_list'
+# Reduces boot times through caching; required in config/boot.rb
+gem 'bootsnap', '>= 1.4.2', require: false
+# Admin
+gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
+
+
+
+
+
+
 # RSpec Test
 gem 'rspec-rails', '~> 4.0.0.beta2'
 # SimpleCov
 gem 'simplecov', require: false, group: :test
-# Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+# Erros
+gem 'friendly_id', '~> 5.1'
 
 group :production do
   gem 'pg'
