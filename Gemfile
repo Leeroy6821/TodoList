@@ -31,8 +31,8 @@ gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
 
 
 
-
-
+# rubocop fix your syntax
+gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
 # RSpec Test
 gem 'rspec-rails', '~> 4.0.0.beta2'
 # SimpleCov
