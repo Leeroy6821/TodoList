@@ -1,12 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/alexandr/Desktop/Projects/todo/spec/controllers/todo_list_items_controller_spec.rb": {
+      "/home/alexandr/TodoList/spec/controllers/todo_list_items_controller_spec.rb": {
         "lines": [
-          1,
+          null,
           null,
           1,
           null,
+          1,
           1,
           1,
           1,
@@ -37,8 +38,10 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/spec/rails_helper.rb": {
+      "/home/alexandr/TodoList/spec/rails_helper.rb": {
         "lines": [
+          null,
+          null,
           null,
           1,
           1,
@@ -105,8 +108,10 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/environment.rb": {
+      "/home/alexandr/TodoList/config/environment.rb": {
         "lines": [
+          null,
+          null,
           null,
           1,
           null,
@@ -114,8 +119,10 @@
           1
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/application.rb": {
+      "/home/alexandr/TodoList/config/application.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -138,16 +145,20 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/boot.rb": {
+      "/home/alexandr/TodoList/config/boot.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
           1
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/environments/test.rb": {
+      "/home/alexandr/TodoList/config/environments/test.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -198,8 +209,9 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/application_controller_renderer.rb": {
+      "/home/alexandr/TodoList/config/initializers/application_controller_renderer.rb": {
         "lines": [
+          null,
           null,
           null,
           null,
@@ -210,8 +222,10 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/assets.rb": {
+      "/home/alexandr/TodoList/config/initializers/assets.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -228,41 +242,8 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/backtrace_silencers.rb": {
+      "/home/alexandr/TodoList/config/initializers/backtrace_silencers.rb": {
         "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/content_security_policy.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -273,8 +254,45 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/cookies_serializer.rb": {
+      "/home/alexandr/TodoList/config/initializers/content_security_policy.rb": {
         "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/config/initializers/cookies_serializer.rb": {
+        "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -282,7 +300,7 @@
           1
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/devise.rb": {
+      "/home/alexandr/TodoList/config/initializers/devise.rb": {
         "lines": [
           null,
           null,
@@ -585,16 +603,19 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/filter_parameter_logging.rb": {
+      "/home/alexandr/TodoList/config/initializers/filter_parameter_logging.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
           1
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/inflections.rb": {
+      "/home/alexandr/TodoList/config/initializers/inflections.rb": {
         "lines": [
+          null,
           null,
           null,
           null,
@@ -613,16 +634,19 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/mime_types.rb": {
+      "/home/alexandr/TodoList/config/initializers/mime_types.rb": {
         "lines": [
+          null,
           null,
           null,
           null,
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/initializers/wrap_parameters.rb": {
+      "/home/alexandr/TodoList/config/initializers/wrap_parameters.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -639,267 +663,24 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/config/routes.rb": {
+      "/home/alexandr/TodoList/config/routes.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/models/user.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/helpers/todo_items_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/helpers/todo_lists_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/controllers/todo_items_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/spec/controllers/todo_list_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
           null,
           null,
           1,
           1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/app/controllers/todo_lists_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null,
           1,
-          null,
-          null,
-          null,
           1,
-          0,
-          null,
-          null,
-          null,
           1,
-          null,
-          null,
-          null,
-          null,
           1,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
           null,
-          null,
-          null,
-          null,
-          null,
           1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
           1,
-          null,
           1,
-          0,
-          null,
-          null,
-          null,
           1,
-          0,
-          null,
-          null
-        ]
-      },
-      "/home/alexandr/Desktop/Projects/todo/spec/helpers/todo_list_items_helper_spec.rb": {
-        "lines": [
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -908,16 +689,284 @@
           null
         ]
       },
-      "/home/alexandr/Desktop/Projects/todo/spec/requests/todo_list_items_request_spec.rb": {
+      "/home/alexandr/TodoList/app/models/user.rb": {
         "lines": [
-          1,
+          null,
           null,
           1,
           null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/helpers/todo_items_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/helpers/todo_lists_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/controllers/todo_items_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/spec/controllers/todo_list_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/app/controllers/todo_lists_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/spec/helpers/todo_list_items_helper_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/alexandr/TodoList/spec/requests/todo_list_items_request_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1586815067
+    "timestamp": 1623940665
   }
 }
