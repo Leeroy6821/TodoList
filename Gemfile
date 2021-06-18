@@ -28,8 +28,10 @@ gem 'acts_as_list'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 # Admin
-gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
-
+gem 'rails_admin', '~> 2.0'
+# gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
+# restrict access to some parts of the app.
+gem 'cancancan'
 # rubocop fix your syntax
 gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
 # RSpec Test

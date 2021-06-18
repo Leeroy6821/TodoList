@@ -33,9 +33,15 @@
           <%= link_to 'Log in', new_user_session_path, class: 'btn btn-dark ml-md-4' %>
           <%= link_to 'Sign up', new_user_registration_path, class: 'btn btn-dark ml-md-2' %>
         <% end %>
-        <% flash.each do |name, msg| %>
-        <%= content_tag :div, msg, id: "flash_#{name}" %>
-      <% end %>
+
+            <% unless flash.empty? %>
+       <script type="text/javascript">
+          <% flash.each do |f| %>
+        <% type = f[0].to_s.gsub('alert', 'error').gsub('notice', 'info') %>
+       	 toastr['<%= type %>']('<%= f[1] %>');
+       <% end %>
+       </script>
+    <% end %>
       </div>
     </nav>
 

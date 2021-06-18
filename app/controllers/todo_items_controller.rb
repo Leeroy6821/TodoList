@@ -3,7 +3,7 @@
 class TodoItemsController < ApplicationController
   before_action :set_todo_list
   before_action :set_todo_item, except: [:create]
-
+  load_and_authorize_resource
   def create
     @todo_item = @todo_list.todo_items.create(todo_item_params)
     redirect_to @todo_list
