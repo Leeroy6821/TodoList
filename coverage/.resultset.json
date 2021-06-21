@@ -643,6 +643,51 @@
           null
         ]
       },
+      "/home/alexandr/TodoList/config/initializers/rails_admin.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/home/alexandr/TodoList/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
@@ -667,6 +712,7 @@
         "lines": [
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -741,7 +787,7 @@
           1,
           1,
           1,
-          null,
+          1,
           1,
           0,
           0,
@@ -967,6 +1013,6 @@
         ]
       }
     },
-    "timestamp": 1623940665
+    "timestamp": 1624046529
   }
 }

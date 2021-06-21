@@ -32,13 +32,13 @@ gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
 
 # rubocop fix your syntax
 gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
-# RSpec Test
-gem 'rspec-rails', '~> 4.0.0.beta2'
+
 # SimpleCov
 gem 'simplecov', require: false, group: :test
 # Erros
 gem 'friendly_id', '~> 5.1'
 
+gem 'railroad', '~> 0.5.0'
 group :production do
   gem 'pg'
 end
@@ -46,6 +46,8 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  # RSpec Test
+  gem 'rspec-rails', '~> 4.0.0.beta2'
 end
 
 group :development do
