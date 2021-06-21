@@ -29,16 +29,13 @@ gem 'acts_as_list'
 gem 'bootsnap', '>= 1.4.2', require: false
 # Admin
 gem 'administrate', github: 'excid3/administrate', branch: 'jumpstart'
-
 # rubocop fix your syntax
 gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
-
 # SimpleCov
 gem 'simplecov', require: false, group: :test
 # Erros
 gem 'friendly_id', '~> 5.1'
 
-gem 'railroad', '~> 0.5.0'
 group :production do
   gem 'pg'
 end
